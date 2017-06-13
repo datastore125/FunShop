@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_white"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/account_box_white"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart_plus_white"
+            android:title="Cart Items" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/phone_in_talk_white"
+            android:title="Contact Us" />
+    </group>
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactDeveloper"
+                android:icon="@drawable/developer_board_white"
+                android:title="Contact Dev" />
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/information_white"
+                android:title="About App" />
+            <item
+                android:id="@+id/nav_rateUs"
+                android:icon="@drawable/star_circle_white"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/walk_white"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
